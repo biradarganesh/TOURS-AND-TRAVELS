@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <body style="background-image: url('wallpaper_contact.jpg'); background-size: cover;">
+  <div class="contact-container">
+    <h1>Contact Us</h1>
+    <form id="contact-form" method="post" action="contact-form-handler.php">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <input type="submit" value="Submit">
+    </form>
+
+
+    <div class="icons">
+        <a href="#"><ion-icon img="logo-facebook"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+    </div>
+  </div>
+</body>
+</html>
